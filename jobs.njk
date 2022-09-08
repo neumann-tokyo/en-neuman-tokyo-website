@@ -1,18 +1,18 @@
 ---
 layout: layouts/main.njk
-title: 事例紹介
+title: Achievements
 ---
 
 <div class="jobs">
   <section>
-    <h2>事例紹介</h2>
+    <h2>Achievements</h2>
     <div class="jobs-cards">
       {% for job in jobs %}
       <div class="jobs-card">
         <div class="jobs-card-image-container">
           <img
             src="{{ job.image }}"
-            alt="{{ job.name }} 様"
+            alt="{{ job.name }}"
             class="jobs-card-image"
           />
         </div>
@@ -24,10 +24,10 @@ title: 事例紹介
               target="_blank"
               rel="noopener"
               class="jobs-card-title-link"
-              >{{ job.name }} 様</a
+              >{{ job.name }}</a
             >
             {% else %}
-            <span>{{ job.name }} 様</span>
+            <span>{{ job.name }}</span>
             {% endif %}
           </h3>
           <div class="jobs-card-description-text">
@@ -45,9 +45,9 @@ title: 事例紹介
 
   <section>
     <div class="jobs-appeal">
-      その他にも多数開発実績があります。
+      We have developed many others.
       <br />
-      ぜひご相談ください。
+      Please contact us.
     </div>
 
     <div class="jobs-appeal-inquiry-button-container">

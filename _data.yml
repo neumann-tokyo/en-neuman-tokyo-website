@@ -1,43 +1,43 @@
 jobs:
   - image: /img/work1.png
-    name: ギルドワークス株式会社
+    name: Guild Works, Inc.
     url: https://guildworks.jp
     description:
-      - 新卒向け就職活動の能力試験システムの設計、開発、テスト、保守を担当
-      - 大手建材販売企業のECサイトの設計、開発、テスト、保守を担当
-      - "使用技術: Ruby, JavaScript, Docker, PostgreSQL, AWSなど"
+      - Responsible for design, development, testing, and maintenance of a job placement competency testing system for new graduates.
+      - Responsible for design, development, testing, and maintenance of an e-commerce site for a major building materials sales company.
+      - "Usage Technologies: Ruby, JavaScript, Docker, PostgreSQL, AWS, etc"
   - image: /img/work2.png
-    name: Resily株式会社
+    name: Resily, Inc.
     url: https://resily.com
     description:
-      - OKR管理システムの開発支援
-      - RubyシステムをGoにリプレースなど大規模な改修にも参画
-      - "使用技術: Ruby, JavaScript, TypeScript, Go, Docker, PostgreSQL, GCPなど"
+      - Support for development of OKR management system
+      - We also participated in a major retrofit to change Ruby to Go
+      - "Usage Technologies: Ruby, JavaScript, TypeScript, Go, Docker, PostgreSQL, GCP, etc"
   - image: /img/kasseika.png
-    name: 株式会社地域活性化総合研究所
+    name: Chikatsuken, Inc.
     url: https://kasseika.club
     description:
-      - 鳥獣被害対策IoTデバイスの開発支援
-      - 在庫管理システム開発支援
-      - "使用技術: Ruby on Rails, Next.js, Python など"
+      - Support for development of IoT devices for animal damage control
+      - Inventory control system development support
+      - "Usage Technologies: Ruby on Rails, Next.js, Python, etc"
   - image: /img/work4.png
-    name: 某大手アパレル企業
+    name: A major apparel company
     url:
     description:
-      - 売上やユーザー情報などのビッグデータの分析
-      - "使用技術: Amazon Redshift, SQL"
+      - Analyze big data such as sales and user information
+      - "Usage Technologies: Amazon Redshift, SQL, etc"
   - image: /img/logo_xcoo.png
-    name: 株式会社テンクー
+    name: Xcoo, Inc.
     url: https://xcoo.co.jp
     description:
-      - がんゲノム医療に関する遺伝子解析ツールの開発支援
-      - "使用技術: Clojure, ClojureScript, PostgreSQL, Docker, など"
+      - Support for development of genetic analysis tools related to cancer genome medicine
+      - "Usage Technologies: Clojure, ClojureScript, PostgreSQL, Docker, etc"
   - image: /img/age-tech-logo.png
-    name: 株式会社AGE technologies
+    name: AGE technologies, Inc.
     url: https://age-technologies.co.jp
     description:
-      - 不動産相続代行システムの開発支援
-      - "使用技術: Clojure, ClojureScript, PostgreSQL, Docker, など"
+      - Support for development of real estate inheritance agent system
+      - "Usage Technologies: Clojure, ClojureScript, PostgreSQL, Docker, etc"
 projects:
   - image: /img/logo.png
     name: インターンシップ制度
