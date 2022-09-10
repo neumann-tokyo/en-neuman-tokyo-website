@@ -1,4 +1,4 @@
-# Neumann LLC Website
+# GK Neumann Website
 
 ## Setup
 
