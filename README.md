@@ -1,4 +1,4 @@
-# GK Neumann Website
+# Neumann Tokyo Inc. Website
 
 ## Setup
 
