@@ -1,27 +1,20 @@
 #!/bin/bash
 set -Ceux
 
-# コマンド実行時の第2引数以下をARGに格納
 ARGS=${@:2}
 
 case ${1} in
 "install") ## install dependencies
 [ -z $(which deno) ] && brew install deno
-[ -z $(which lume) ] && deno run -A https://deno.land/x/lume/install.ts
-[ -z $(which node) ] && brew install node
-npm install
-npm run prepare
 ;;
 "up") ## start server
-lume -s
+deno task serve
 ;;
 "fmt") ## format all files
-# deno fmt は html や scss に対応していないので prettier を使う
-npx prettier -w .
-npx prettier -w --parser=html $(find . -name "*.njk")
+deno task fmt
 ;;
 "build") ## build for production
-lume --dest docs
+deno task build
 ;;
 "help" | *)
 (
