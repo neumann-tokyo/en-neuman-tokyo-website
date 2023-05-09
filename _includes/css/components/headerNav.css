@@ -21,16 +21,16 @@
 }
 
 .sp-header-menu-button {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
 }
 
 .sp-header-menu-checkbox {
   display: none;
 }
 
-.sp-header-menu-checkbox:checked ~ .sp-header-nav-modal,
-.sp-header-menu-checkbox:checked ~ .sp-header-nav-background {
+.sp-header-menu-checkbox:checked~.sp-header-nav-modal,
+.sp-header-menu-checkbox:checked~.sp-header-nav-background {
   display: block;
 }
 

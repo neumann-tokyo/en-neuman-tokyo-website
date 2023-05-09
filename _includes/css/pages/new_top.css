@@ -35,14 +35,16 @@
 
 .top-concept-card-title-bold {
   color: white;
-  font-size: 5rem;
+  font-size: 6vw;
   text-shadow: 1px 1px black;
   text-decoration: underline;
 }
 
 .top-concept-card-title-learn_more {
+  font-size: 3vw;
+  font-weight: bold;
   padding: 0.5rem 1rem;
-  border: 2px solid white;
+  border: .5vw solid white;
   border-radius: 2rem;
   text-decoration: none;
   color: white;
@@ -80,10 +82,26 @@
 }
 
 .top-strong-points-card-image {
-  width: 400px;
-  height: 400px;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .top-strong-points-card-title {
   margin-top: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .top-strong-points-card:nth-child(odd) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-strong-points-card:nth-child(even) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-strong-points-cards {
+    margin: 3rem 0;
+  }
 }
