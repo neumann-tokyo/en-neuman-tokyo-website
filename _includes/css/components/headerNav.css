@@ -29,8 +29,8 @@
   display: none;
 }
 
-.sp-header-menu-checkbox:checked~.sp-header-nav-modal,
-.sp-header-menu-checkbox:checked~.sp-header-nav-background {
+.sp-header-menu-checkbox:checked ~ .sp-header-nav-modal,
+.sp-header-menu-checkbox:checked ~ .sp-header-nav-background {
   display: block;
 }
 
