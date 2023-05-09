@@ -1,5 +1,5 @@
 :root {
-  --contents-width: 1000px;
+  --contents-width: 1200px;
 
   --main-text-color: #000000;
   --main-bg-color: #ffffff;
@@ -11,6 +11,8 @@
   --accent-button-bg-color: #ffb703;
   --accent-button-line-color: #fb8500;
   --accent-button-text-color: #ffffff;
+
+  --title-bg-color: #eaeaea;
 
   /* --accent-bg-color: #be2543;
   --accent-bg-color-dark: #941c34;

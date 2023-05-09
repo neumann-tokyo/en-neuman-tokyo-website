@@ -56,9 +56,11 @@
     align-items: flex-start;
     padding: 1rem;
   }
+
   .layout-main {
     display: block;
   }
+
   .layout-footer {
     display: block;
   }
@@ -66,6 +68,7 @@
   .layout-main-center {
     width: 100%;
   }
+
   .footer {
     width: 100%;
   }
