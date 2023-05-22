@@ -1,240 +1,81 @@
 ---
 layout: layouts/top.njk
 title: TOP
+dummyTitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+dummyText:
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pretium hendrerit mollis. Donec sagittis dolor et felis placerat tempus ut ut elit. Praesent porttitor congue enim, id sodales ipsum. Proin gravida dictum varius. Proin eu arcu feugiat libero interdum eleifend a sodales arcu. Ut sit amet tempus orci. Maecenas consequat rutrum ultricies. Praesent consectetur, mauris eget euismod dictum, justo ligula egestas neque, quis mollis felis felis a turpis. Aenean augue orci, malesuada eu posuere ac, cursus a sapien.
+  Fusce suscipit ultrices felis, ut malesuada turpis tempor et. Aenean accumsan massa tellus. Cras a molestie tellus, id auctor felis. Donec cursus nisl ipsum, nec suscipit magna sollicitudin a. Phasellus semper accumsan maximus. Aenean tristique ultricies sagittis. Praesent lorem leo, mattis sit amet arcu non, scelerisque aliquet enim. Etiam non risus eget dolor imperdiet ullamcorper ut et enim. Suspendisse blandit ex nec pretium tincidunt.
+  Integer porta tempor ex, sed tincidunt est vestibulum eu. Praesent ullamcorper, elit at accumsan facilisis, leo diam luctus lacus, congue accumsan massa nulla et nulla. Morbi dapibus elit elit, eu auctor neque faucibus quis. Vivamus semper risus eu malesuada luctus. Nam interdum molestie elit non pharetra. Cras at dolor eget purus efficitur maximus. Ut feugiat, urna at volutpat malesuada, risus lectus fermentum libero, non volutpat urna ex quis lectus. Mauris facilisis diam quis arcu ornare, eu vestibulum tortor interdum. Suspendisse congue euismod sapien, ut luctus lacus tempus quis. Curabitur non nisl enim. Mauris risus purus, tincidunt in justo in, vestibulum viverra nunc.
 ---
 
-<div class="layout-main">
-  <main class="layout-main-center">
-    <div class="top-notification">
-      Notification<br />
-      1 November, 2022<br />
-      We changed our company name from "GK Neumann" to "Neumann Tokyo Inc."
+<main class="new-index-layout-main">
+  <div class="top-concept">
+    <div class="top-concept-card">
+      <img
+        src="/img/top-concept_2x.jpg"
+        class="top-concept-card-image"
+        alt="High Quality, Global Company, Remote Work"
+        loading="lazy"
+      />
+      <div class="top-concept-card-title-container">
+        <div class="top-concept-card-title">
+          <h2 class="top-concept-card-title-bold">
+            High Quality, Global Company, Remote Work
+          </h2>
+          <div class="top-concept-card-title-button-container">
+            <!-- TODO どこかへリンク -->
+            <a href="#" class="top-concept-card-title-learn_more">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="top">
-      <div class="top-slogan">
-        <h2 class="top-slogan-text">Make peace with computer</h2>
+    <div class="top-concept-description">
+      We are a team of engineers to support your business and development.
+    </div>
+  </div>
+
+  <div class="top-strong-points">
+    <div class="top-strong-points-cards">
+      <div class="top-strong-points-card">
         <img
-          src="/img/mainvisual.png"
-          alt="lisp monster and girl"
+          src="/img/600x600.png"
+          alt="600x600"
           loading="lazy"
-          class="top-slogan-image"
+          class="top-strong-points-card-image"
         />
+        <div class="top-strong-points-card-text">
+          <h3 class="top-strong-points-card-title">{{ dummyTitle }}</h3>
+          <div class="top-strong-points-card-description">{{ dummyText }}</div>
+        </div>
       </div>
 
-      <section>
-        <h2 class="top-features-title">
-          We are a technical group to support your development
-        </h2>
-        <div class="top-features-container">
-          <div class="top-features-cards">
-            <div class="top-features-description">
-              <div class="top-feature-description-number">
-                <span class="top-feature-description-number-bar">───</span>
-                <img
-                  src="/img/point01.png"
-                  alt="point01"
-                  class="top-feature-description-number-image"
-                />
-              </div>
-              <h3 class="top-feature-description-title">
-                Entrusted Development
-              </h3>
-              <p class="top-feature-description-text">
-                We support careful development by our experienced staff. Fees
-                are fixed monthly and flexible even if your requirements change.
-                We will make your business stronger.
-              </p>
-            </div>
-            <img
-              src="/img/img1.png"
-              alt="feature1"
-              class="top-features-image"
-            />
-          </div>
-          <div class="top-features-cards-reverse">
-            <div class="top-features-description">
-              <div class="top-feature-description-number">
-                <span class="top-feature-description-number-bar">───</span>
-                <img
-                  src="/img/point02.png"
-                  alt="point02"
-                  class="top-feature-description-number-image"
-                />
-              </div>
-              <h3 class="top-feature-description-title">
-                Experienced remote workers
-              </h3>
-              <p class="top-feature-description-text">
-                Neumann offers full remote work. If your company is considering
-                telework, we can assist you in implementing this system based on
-                our many years of experience. Please contact us for more
-                information.
-              </p>
-            </div>
-            <img
-              src="/img/img2.png"
-              alt="feature2"
-              class="top-features-image"
-            />
-          </div>
-          <div class="top-features-cards">
-            <div class="top-features-description">
-              <div class="top-feature-description-number">
-                <span class="top-feature-description-number-bar">───</span>
-                <img
-                  src="/img/point03.png"
-                  alt="point03"
-                  class="top-feature-description-number-image"
-                />
-              </div>
-              <h3 class="top-feature-description-title">
-                High level of expertise
-              </h3>
-              <p class="top-feature-description-text">
-                We use the latest technology to help you develop systems that
-                are unrivaled by any other company. Our technical capabilities
-                will surely become your powerful weapon.
-              </p>
-            </div>
-            <img
-              src="/img/img3.png"
-              alt="feature3"
-              class="top-features-image"
-            />
-          </div>
-          <div class="top-features-cards-reverse">
-            <div class="top-features-description">
-              <div class="top-feature-description-number">
-                <span class="top-feature-description-number-bar">───</span>
-                <img
-                  src="/img/point04.png"
-                  alt="point04"
-                  class="top-feature-description-number-image"
-                />
-              </div>
-              <h3 class="top-feature-description-title">Focus on training</h3>
-              <p class="top-feature-description-text">
-                We are also actively engaged in educational projects such as the
-                operation of programming classes and seminars for companies.
-              </p>
-            </div>
-            <img
-              src="/img/img4.png"
-              alt="feature4"
-              class="top-features-image"
-            />
-          </div>
+      <div class="top-strong-points-card">
+        <img
+          src="/img/600x600.png"
+          alt="600x600"
+          loading="lazy"
+          class="top-strong-points-card-image"
+        />
+        <div class="top-strong-points-card-text">
+          <h3 class="top-strong-points-card-title">{{ dummyTitle }}</h3>
+          <div class="top-strong-points-card-description">{{ dummyText }}</div>
         </div>
-      </section>
-    </div>
-  </main>
-</div>
+      </div>
 
-<div class="top-layout-language">
-  <main class="top-layout-language-center">
-    <div class="languages-title">
-      <img
-        src="/img/languagestools.png"
-        src="languages & tools"
-        class="languages-title-image"
-      />
-      <h2 class="languages-title-text">Languages & Tools</h2>
-    </div>
-    <div class="languages-subtitle">
-      We support your business with a wide range of technical capabilities
-    </div>
-    <div class="languages-container">
-      <div class="language-card">
-        <div class="language-image-container">
-          <img src="/img/lang1.png" alt="Clojure" class="language-image" />
+      <div class="top-strong-points-card">
+        <img
+          src="/img/600x600.png"
+          alt="600x600"
+          loading="lazy"
+          class="top-strong-points-card-image"
+        />
+        <div class="top-strong-points-card-text">
+          <h3 class="top-strong-points-card-title">{{ dummyTitle }}</h3>
+          <div class="top-strong-points-card-description">{{ dummyText }}</div>
         </div>
-        <div class="language-name">Clojure</div>
-      </div>
-      <div class="language-card">
-        <div class="language-image-container">
-          <img src="/img/lang2.png" alt="Ruby" class="language-image" />
-        </div>
-        <div class="language-name">Ruby</div>
-      </div>
-      <div class="language-card">
-        <div class="language-image-container">
-          <img src="/img/lang3.png" alt="TypeScript" class="language-image" />
-        </div>
-        <div class="language-name">TypeScript</div>
-      </div>
-      <div class="language-card">
-        <div class="language-image-container">
-          <img src="/img/flutter.png" alt="Flutter" class="language-image" />
-        </div>
-        <div class="language-name">Flutter</div>
-      </div>
-    </div>
-  </main>
-</div>
-
-<div class="top-layout-jobs">
-  <div class="top-layout-jobs-left">
-    <div class="top-layout-jobs-left-inside">
-      <div class="top-jobs-title">
-        <div class="top-jobs-title-text">
-          <h2>Achievements</h2>
-        </div>
-      </div>
-      <div class="top-jobs-description">
-        Our services include web system construction, maintenance and operation,
-        and data analysis.
-      </div>
-      <div class="top-jpbs-view-all">
-        <a href="/jobs" class="top-jpbs-view-all-link">View all</a>
       </div>
     </div>
   </div>
-  <div class="top-layout-jobs-right">
-    <div class="top-layout-jobs-right-inside">
-      <a href="/jobs" class="job-card-link">
-        <div class="job-card">
-          <div class="job-card-image-wrapper">
-            <img
-              src="/img/work1.png"
-              alt="Guild Works, Inc."
-              class="job-card-image"
-            />
-          </div>
-          <div class="job-card-name">Guild Works, Inc.</div>
-        </div>
-      </a>
-      <a href="/jobs" class="job-card-link">
-        <div class="job-card">
-          <div class="job-card-image-wrapper">
-            <img
-              src="/img/work2.png"
-              alt="Resily, Inc."
-              class="job-card-image"
-            />
-          </div>
-          <div class="job-card-name">Resily, Inc.</div>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
-
-<div class="top-inquiry-container">
-  <div class="top-inquiry">
-    <div class="top-inquiry-title">
-      <img
-        src="/img/contact.png"
-        alt="contact"
-        class="top-inquiry-title-image"
-      />
-      <h2 class="top-inquiry-title-text">Contact Us</h2>
-    </div>
-    <div class="top-inquiry-button-container">
-      <p>
-        Please contact us for anything related to web and mobile app
-        development.
-      </p>
-      {{ comp.inquiryButton() | safe }}
-    </div>
-  </div>
-</div>
+</main>
