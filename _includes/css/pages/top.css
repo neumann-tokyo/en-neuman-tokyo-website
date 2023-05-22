@@ -61,7 +61,7 @@
   text-align: center;
 }
 
-.top-strong-points {
+.top-container {
   max-width: var(--contents-width);
   margin: 0 auto;
   padding: 0 1rem;
@@ -92,6 +92,31 @@
 
 .top-strong-points-card-title {
   margin-top: 0;
+}
+
+.top-h2-container {
+  background-color: var(--title-bg-color);
+  color: var(--accent-color);
+  padding: .5rem;
+  text-align: center;
+}
+
+.top-h3 {
+  color: var(--accent-color);
+}
+
+.top-slogans {
+  margin-left: 5rem;
+  line-height: 2rem;
+}
+
+.top-slogan-title {
+  font-weight: bold;
+}
+
+.top-contact-us {
+  margin: 2rem;
+  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {

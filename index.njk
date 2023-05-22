@@ -23,8 +23,7 @@ dummyText:
             High Quality, Global Company, Remote Work
           </h2>
           <div class="top-concept-card-title-button-container">
-            <!-- TODO どこかへリンク -->
-            <a href="#" class="top-concept-card-title-learn_more">
+            <a href="#company-slogan" class="top-concept-card-title-learn_more">
               Learn more
             </a>
           </div>
@@ -36,7 +35,7 @@ dummyText:
     </div>
   </div>
 
-  <div class="top-strong-points">
+  <div class="top-container">
     <div class="top-strong-points-cards">
       <div class="top-strong-points-card">
         <img
@@ -78,4 +77,93 @@ dummyText:
       </div>
     </div>
   </div>
+
+  <div class="top-h2-container" id="company-slogan">
+    <h2>Company Slogan</h2>
+  </div>
+  <div class="top-container">
+    <section>
+      <h3 class="top-h3">High Quality, Global Company, Remote Work</h3>
+      <p>
+        ノイマントーキョー株式会社では上記を社是とします。それぞれに次の意味を込めています。
+      </p>
+      <dl class="top-slogans">
+        <dt class="top-slogan-title">High Quality</dt>
+        <dd>お客様に満足していただけるよう高品質であることを心がけます</dd>
+        <dt class="top-slogan-title">Global Company</dt>
+        <dd>グローバル企業として活躍できるように注力します</dd>
+        <dt class="top-slogan-title">Remote Work</dt>
+        <dd>テレワークにより場所を問わず活躍します</dd>
+      </dl>
+    </section>
+    <section>
+      <h3 class="top-h3" id="about-us">About Us</h3>
+      <div class="about-company">
+        <img
+          src="/img/logo.webp"
+          alt="Neumann Tokyo Inc."
+          class="about-company-image"
+          loading="lazy"
+        />
+        <table class="about-company-table">
+          <tr>
+            <th>Company Name</th>
+            <td>Neumann Tokyo Inc.</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>
+              2-39-7, Sano Miharashidai, Mishima Shi, Shizuoka Ken, 411-0041,
+              Japan
+            </td>
+          </tr>
+          <tr>
+            <th>CEO</th>
+            <td>Kazuki Baba</td>
+          </tr>
+          <tr>
+            <th>Established</th>
+            <td>24 September, 2019</td>
+          </tr>
+          <tr>
+            <th>Capital</th>
+            <td>5,000,000 JPY</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="top-h3">About CEO Kazuki Baba</h3>
+      <div class="about-ceo">
+        <img
+          src="/img/kbaba1001.webp"
+          class="about-ceo-image"
+          alt="Kazuki Baba"
+          loading="lazy"
+        />
+        <div class="about-ceo-description">
+          <ul>
+            <li>
+              Has over 10 years of experience in server-side development, mainly
+              using Clojure, JavaScript etc.
+            </li>
+            <li>
+              Has deep knowledge and experience in front-end development using
+              React, TypeScript, ClojureScript, etc.
+            </li>
+            <li>
+              Is capable of data analysis and design in RDBMS (mainly
+              PostgreSQL)
+            </li>
+            <li>Conducts infrastructure construction using Docker, GCP, AWS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="top-contact-us">
+    {{ comp.inquiryButton() | safe }}
+  </section>
 </main>
