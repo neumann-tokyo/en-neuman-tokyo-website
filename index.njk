@@ -45,7 +45,7 @@ dummyText:
           class="top-strong-points-card-image"
         />
         <div class="top-strong-points-card-text">
-          <h3 class="top-strong-points-card-title">{{ dummyTitle }}</h3>
+          <h3 class="top-strong-points-card-title">WEBシステム開発</h3>
           <div class="top-strong-points-card-description">{{ dummyText }}</div>
         </div>
       </div>
@@ -58,7 +58,7 @@ dummyText:
           class="top-strong-points-card-image"
         />
         <div class="top-strong-points-card-text">
-          <h3 class="top-strong-points-card-title">{{ dummyTitle }}</h3>
+          <h3 class="top-strong-points-card-title">ホームページ制作</h3>
           <div class="top-strong-points-card-description">{{ dummyText }}</div>
         </div>
       </div>
@@ -71,12 +71,141 @@ dummyText:
           class="top-strong-points-card-image"
         />
         <div class="top-strong-points-card-text">
-          <h3 class="top-strong-points-card-title">{{ dummyTitle }}</h3>
+          <h3 class="top-strong-points-card-title">スマートフォンアプリ開発</h3>
           <div class="top-strong-points-card-description">{{ dummyText }}</div>
         </div>
       </div>
     </div>
   </div>
+  <div class="top-h2-container">
+    　<h2>技術について</h2>
+  </div>
+  </div>
+
+  <div class="top-container">
+    <div class="top-strong-points-cards">
+      <div class="top-strong-points-card">
+        <img
+          src="/img/600x600.png"
+          alt="600x600"
+          loading="lazy"
+          class="top-strong-points-card-image"
+        />
+        <div class="top-strong-points-card-text">
+          <h3 class="top-strong-points-card-title">Clojure</h3>
+          <div class="top-strong-points-card-description">{{ dummyText }}</div>
+        </div>
+      </div>
+
+      <div class="top-strong-points-card">
+        <img
+          src="/img/600x600.png"
+          alt="600x600"
+          loading="lazy"
+          class="top-strong-points-card-image"
+        />
+        <div class="top-strong-points-card-text">
+          <h3 class="top-strong-points-card-title">Flutter</h3>
+          <div class="top-strong-points-card-description">{{ dummyText }}</div>
+        </div>
+      </div>
+
+      <div class="top-strong-points-card">
+        <img
+          src="/img/600x600.png"
+          alt="600x600"
+          loading="lazy"
+          class="top-strong-points-card-image"
+        />
+        <div class="top-strong-points-card-text">
+          <h3 class="top-strong-points-card-title">JavaScript</h3>
+          <div class="top-strong-points-card-description">{{ dummyText }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="top-contact-us">
+    {{ comp.inquiryButton() | safe }}
+  </section>
+  
+  <div class="top-h2-container">
+    　<h2>これまでの制作事例</h2>
+  </div>
+  <section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="">
+        ここに内容その１
+      
+      
+      </div>
+
+
+
+
+
+
+      <div class="carousel__snapper">
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
+
+
 
   <div class="top-h2-container" id="company-slogan">
     <h2>Company Slogan</h2>
