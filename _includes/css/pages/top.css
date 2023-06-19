@@ -124,6 +124,10 @@
   text-align: center;
 }
 
+.top-dt {
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 800px) {
   .top-strong-points-card:nth-child(odd) {
     display: flex;
