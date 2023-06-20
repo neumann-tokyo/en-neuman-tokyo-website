@@ -1,5 +1,11 @@
+.header-language:hover{
+  transition-duration: 300ms;
+  opacity: 70%;
+}
+
 .header-language img{  
   vertical-align: middle;
+  margin-right: 0.8vw;
 }
 .header-nav-list {
   list-style: none;
@@ -17,6 +23,7 @@
 
 .header-nav-list-link:hover {
   color: var(--accent-color);
+  transition-duration: 300ms;
 }
 
 .sp-header-menu {

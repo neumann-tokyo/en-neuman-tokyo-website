@@ -10,9 +10,8 @@
 }
 
 .top-concept-card {
-  display: grid;
+  position: relative;
 }
-
 .top-concept-card-image {
   width: 100%;
   object-fit: cover;
@@ -23,8 +22,10 @@
 }
 
 .top-concept-card-title-container {
-  grid-column-start: 1;
-  grid-row-start: 1;
+  position: absolute;
+    width: 90%;
+    top: 5%;
+    left: 5%;
 }
 
 .top-concept-card-title {
@@ -54,6 +55,11 @@
   color: white;
   box-shadow: 1px 1px black;
   text-shadow: 1px 1px black;
+}
+.top-concept-card-title-learn_more:hover{
+  transition-duration: 300ms;
+  background-color: whitesmoke;
+  opacity: 70%;
 }
 
 .top-concept-description {
@@ -142,4 +148,8 @@
   .top-strong-points-cards {
     margin: 3rem 0;
   }
+  .top-concept-card-title-bold {
+    font-size: 6vw;
+  }
+  
 }
