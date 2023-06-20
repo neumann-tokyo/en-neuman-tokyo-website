@@ -7,8 +7,19 @@ title: TOP
   <div class="top-concept">
     <div class="top-concept-card">
       <picture>
-        <source srcset="/img/top-concept_2x.jpg" media="(min-width: 801px)" class="top-concept-card-image" alt="High Quality, Global Company, Remote Work" loading="lazy">
-        <img src="/img/sp_top-concept.jpg" class="top-concept-card-image" alt="High Quality, Global Company, Remote Work" loading="lazy">
+        <source
+          srcset="/img/top-concept_2x.jpg"
+          media="(min-width: 801px)"
+          class="top-concept-card-image"
+          alt="High Quality, Global Company, Remote Work"
+          loading="lazy"
+        />
+        <img
+          src="/img/sp_top-concept.jpg"
+          class="top-concept-card-image"
+          alt="High Quality, Global Company, Remote Work"
+          loading="lazy"
+        />
       </picture>
       <div class="top-concept-card-title-container">
         <div class="top-concept-card-title">
@@ -27,6 +38,10 @@ title: TOP
       We are a team of engineers to support your business and development.
     </div>
   </div>
+
+  <section class="top-contact-us">
+    {{ comp.inquiryButton() | safe }}
+  </section>
 
   <div class="top-container">
     <div class="top-strong-points-cards">
@@ -119,6 +134,10 @@ title: TOP
     </div>
   </div>
 
+  <section class="top-contact-us">
+    {{ comp.inquiryButton() | safe }}
+  </section>
+
   <div class="top-h2-container">
     <h2>Services</h2>
   </div>
@@ -204,11 +223,11 @@ title: TOP
             <p>
               We designed, developed, tested, and maintained an aptitude testing
               system to determine whether the skills of new graduates match what
-              the companies are looking for.<BR>
-              We developed, performed the safety testing, and maintained an
-              appropriate ability testing system that can visualize a wide range
-              of items, such as the characteristics and personality of job
-              seekers, and whether or not they are a match with the company.<BR>
+              the companies are looking for.<BR /> We developed, performed the
+              safety testing, and maintained an appropriate ability testing
+              system that can visualize a wide range of items, such as the
+              characteristics and personality of job seekers, and whether or not
+              they are a match with the company.<BR />
               We designed the test to be very easy to use. Using the feedback of
               the test results to the examinees, the system has been used by
               many corporate recruiters as a tool that encourages self-analysis,
@@ -287,6 +306,8 @@ title: TOP
     <p>
       Customer management, document management, reservation system, membership
       system, email SNS distribution system, quotation system
+    </p>
+
     <div class="top-strong-points-cards">
       <div class="top-strong-points-card">
         <img
@@ -297,12 +318,15 @@ title: TOP
         />
         <div class="top-strong-points-card-text">
           <h4 class="top-strong-points-card-title">
-             New client acquisition app for a financial planning company 
+            New client acquisition app for a financial planning company
           </h4>
           <div class="top-strong-points-card-description">
-            <p>We developed a money management application that can be used by a wide range of people,
-               from beginners to more advanced users. This system helps them to acquire new clients
-                for more effective asset building and management, as well as consulting.</p> 
+            <p>
+              We developed a money management application that can be used by a
+              wide range of people, from beginners to more advanced users. This
+              system helps them to acquire new clients for more effective asset
+              building and management, as well as consulting.
+            </p>
             <dl>
               <dt class="top-dt">UI design by household age</dt>
               <dd>
@@ -351,21 +375,21 @@ title: TOP
   </section>
 
   <div class="top-h2-container" id="company-slogan">
-    <h2>Company Slogan</h2>
+    <h2>Corporate Motto</h2>
   </div>
   <div class="top-container">
     <section>
       <h3 class="top-h3">High Quality, Global Company, Remote Work</h3>
       <p>
-        ノイマントーキョー株式会社では上記を社是とします。それぞれに次の意味を込めています。
+        This is a our corporate motto. Each of them has the following meanings.
       </p>
       <dl class="top-slogans">
         <dt class="top-slogan-title">High Quality</dt>
-        <dd>お客様に満足していただけるよう高品質であることを心がけます</dd>
+        <dd>We guarantee high quality for your success.</dd>
         <dt class="top-slogan-title">Global Company</dt>
-        <dd>グローバル企業として活躍できるように注力します</dd>
+        <dd>We build teams and work across borders.</dd>
         <dt class="top-slogan-title">Remote Work</dt>
-        <dd>テレワークにより場所を問わず活躍します</dd>
+        <dd>We go beyond location limitations by working remotely.</dd>
       </dl>
     </section>
     <section>
