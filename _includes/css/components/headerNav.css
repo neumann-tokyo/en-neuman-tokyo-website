@@ -1,9 +1,12 @@
+.header-language img{  
+  vertical-align: middle;
+}
 .header-nav-list {
   list-style: none;
-  margin-left: 0;
+  margin: 1rem 0 0;
   padding-left: 0;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .header-nav-list-link {
@@ -84,11 +87,19 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .header-language img{
+    width:20px;
+  }
+  .header-language{
+    font-size: 0.8rem;
+  }
   .header-nav-list {
     display: none;
   }
 
   .sp-header-menu {
-    display: inline-block;
+    display: block;
+    text-align: right;
+    padding-top:10px;
   }
 }
