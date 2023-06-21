@@ -50,10 +50,19 @@ description: Neumann Tokyo Inc. is a technical company that supports development
     <meta name="author" content="Neumann Tokyo Inc. Kazuki Baba" />
     <meta property="og:title" content="Neumann Tokyo Inc. - {{ title }}" />
     <meta property="og:url" content="https://en.neumann.tokyo" />
+    {% if ogimage %}
+    <meta property="og:image" content="https://en.neumann.tokyo{{ ogimage }}" />
+    <meta
+      property="twitter:image:src"
+      content="https://en.neumann.tokyo{{ ogimage }}"
+    />
+    {% else %}
     <meta
       property="og:image"
-      content="https://www.neumann.tokyo/img/mainvisual.png"
+      content="https://en.neumann.tokyo/img/top-concept_2x.jpg"
     />
+    {% endif %}
+
     <meta property="og:type" content="website" />
     <meta name="description" content="{{ description }}" />
     <meta property="og:description" content="{{ description }}" />

@@ -14,6 +14,9 @@ layout: layouts/main.njk
       <a href="{{ article.data.url }}" class="articles-list-card-title-link">
         <h2 class="articles-list-card-title">{{ article.data.title }}</h2>
       </a>
+      <div class="articles-list-card-description">
+        {{ article.data.description }}
+      </div>
     </div>
     {% endfor %}
   </div>

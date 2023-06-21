@@ -31,6 +31,12 @@
   color: var(--accent-color);
 }
 
+.articles-list-card-description {
+  color: gray;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
 @media only screen and (max-width: 800px) {
   .article {
     padding: 0 1rem;
