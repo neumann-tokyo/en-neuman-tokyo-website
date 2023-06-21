@@ -1,5 +1,6 @@
 ---
-description: Neumann Tokyo Inc. is a technical company that supports development with a focus on IcT and WFH. Please contact us for any inquiries.
+description: Neumann Tokyo Inc. is a technical company that supports development with a focus on High Quality, Global Company, Remote Work.
+ogimage: /img/top-concept_2x.jpg
 ---
 
 <html lang="en-US">
@@ -50,25 +51,20 @@ description: Neumann Tokyo Inc. is a technical company that supports development
     <meta name="author" content="Neumann Tokyo Inc. Kazuki Baba" />
     <meta property="og:title" content="Neumann Tokyo Inc. - {{ title }}" />
     <meta property="og:url" content="https://en.neumann.tokyo" />
-    {% if ogimage %}
+
     <meta property="og:image" content="https://en.neumann.tokyo{{ ogimage }}" />
     <meta
       property="twitter:image:src"
       content="https://en.neumann.tokyo{{ ogimage }}"
     />
-    {% else %}
-    <meta
-      property="og:image"
-      content="https://en.neumann.tokyo/img/top-concept_2x.jpg"
-    />
-    {% endif %}
 
     <meta property="og:type" content="website" />
     <meta name="description" content="{{ description }}" />
     <meta property="og:description" content="{{ description }}" />
     <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
 
-    <title>Neumann Tokyo Inc. - {{ title }}</title>
+    <title>Neumann Tokyo - {{ title }}</title>
   </head>
   <body class="layout">
     {{ content | safe }}
