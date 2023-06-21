@@ -1,9 +1,18 @@
+.header-language:hover{
+  transition-duration: 300ms;
+  opacity: 70%;
+}
+
+.header-language img{  
+  vertical-align: middle;
+  margin-right: 0.8vw;
+}
 .header-nav-list {
   list-style: none;
-  margin-left: 0;
+  margin: 1rem 0 0;
   padding-left: 0;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .header-nav-list-link {
@@ -14,6 +23,7 @@
 
 .header-nav-list-link:hover {
   color: var(--accent-color);
+  transition-duration: 300ms;
 }
 
 .sp-header-menu {
@@ -84,11 +94,19 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .header-language img{
+    width:20px;
+  }
+  .header-language{
+    font-size: 0.8rem;
+  }
   .header-nav-list {
     display: none;
   }
 
   .sp-header-menu {
-    display: inline-block;
+    display: block;
+    text-align: right;
+    padding-top:10px;
   }
 }

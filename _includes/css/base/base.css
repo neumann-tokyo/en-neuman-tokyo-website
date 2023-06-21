@@ -26,7 +26,9 @@
   /* #2580be */
   /* https://imagecolorpicker.com/color-code/be2543 */
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: sans-serif;
   font-size: 1.2rem;
