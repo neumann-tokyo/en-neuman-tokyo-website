@@ -647,9 +647,9 @@ body {
 
 .top-concept-card-title-container {
   position: absolute;
-    width: 90%;
-    top: 5%;
-    left: 5%;
+  width: 90%;
+  top: 5%;
+  left: 5%;
 }
 
 .top-concept-card-title {
@@ -681,7 +681,7 @@ body {
   text-shadow: 1px 1px black;
 }
 
-.top-concept-card-title-learn_more:hover{
+.top-concept-card-title-learn_more:hover {
   transition-duration: 300ms;
   background-color: whitesmoke;
   opacity: 70%;
@@ -759,6 +759,13 @@ body {
   font-weight: bold;
 }
 
+.top-section-vstack {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
 @media only screen and (max-width: 800px) {
   .top-strong-points-card:nth-child(odd) {
     display: flex;
@@ -773,10 +780,11 @@ body {
   .top-strong-points-cards {
     margin: 3rem 0;
   }
+
   .top-concept-card-title-bold {
     font-size: 6vw;
   }
-  
+
 }
 
 .about-company-slogan {
